@@ -28,7 +28,7 @@ void loop() {
   }
 
 
-  sensorValue = analogRead(14);
+  sensorValue = analogRead(16);
   Serial.println(sensorValue);
   voltage = sensorValue * 2.5 / 4095;
   Serial.println(voltage);
